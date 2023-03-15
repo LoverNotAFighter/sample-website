@@ -1,2 +1,3 @@
 header("Content-type: text/css");
-readfile("Styles/sample.css");
+$css_file = file_get_contents("Styles/sample.css");
+echo $css_file;
