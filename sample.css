@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+body{
+  background: black;
+  color: #d0c7c2;
+}
+#sample-div{
+  background: rgb(150, 150, 150);
+  width: 50%;
+}
