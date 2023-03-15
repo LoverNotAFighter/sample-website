@@ -1,4 +1,4 @@
-RewriteEngine on
-RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?lovernotafighter\.github\.io [NC]
-RewriteRule \.(css)$ - [NC,F,L]
+<Files "sample.css">
+  Order deny,allow
+  Deny from all
+</Files>
