@@ -1,0 +1,17 @@
+CREATE TABLE accounts (
+    id INTEGER PRIMARY KEY,
+    user TEXT,
+    pass TEXT,
+    mainSet TEXT,
+    accesPrb TEXT,
+    accesSet TEXT,
+    ads TEXT,
+    rand TEXT,
+    time INTEGER,
+    signed TEXT,
+    status INTEGER
+);
+
+INSERT INTO accounts (user,pass,mainSet,accesPrb,accesSet,ads,rand,time,signed,status) VALUES ('userTest1','passTest1','A','yesAllProbs','yesAllSets','noDisblAd','yesRand',730,'out',0);
+INSERT INTO accounts (user,pass,mainSet,accesPrb,accesSet,ads,rand,time,signed,status) VALUES ('userTest2','passTest2','A','yesAllProbs','yesAllSets','noDisblAd','yesRand',730,'out',10);
+INSERT INTO accounts (user,pass,mainSet,accesPrb,accesSet,ads,rand,time,signed,status) VALUES ('userTest3','passTest3','A','yesAllProbs','yesAllSets','noDisblAd','yesRand',730,'out',100);
